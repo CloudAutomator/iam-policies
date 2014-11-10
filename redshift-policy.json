@@ -1,0 +1,33 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "redshift:CopyClusterSnapshot",
+        "redshift:CreateCluster",
+        "redshift:CreateClusterSnapshot",
+        "redshift:DeleteCluster",
+        "redshift:DeleteClusterSnapshot",
+        "redshift:DescribeClusterParameterGroups",
+        "redshift:DescribeClusterSecurityGroups",
+        "redshift:DescribeClusterSnapshots",
+        "redshift:DescribeClusterSubnetGroups",
+        "redshift:DescribeClusterVersions",
+        "redshift:DescribeClusters",
+        "redshift:DescribeDefaultClusterParameters",
+        "redshift:DescribeHsmClientCertificates",
+        "redshift:DescribeHsmConfigurations",
+        "redshift:DescribeLoggingStatus",
+        "redshift:DescribeOrderableClusterOptions",
+        "redshift:DescribeResize",
+        "redshift:DisableLogging",
+        "redshift:DisableSnapshotCopy",
+        "redshift:EnableLogging",
+        "redshift:EnableSnapshotCopy",
+        "redshift:RestoreFromClusterSnapshot"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

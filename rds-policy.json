@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "rds:AddTagsToResource",
+        "rds:CopyDBSnapshot",
+        "rds:CreateDBSnapshot",
+        "rds:DeleteDBSnapshot",
+        "rds:DescribeDBInstances",
+        "rds:DescribeDBSnapshots",
+        "rds:ListTagsForResource",
+        "rds:RemoveTagsFromResource"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
