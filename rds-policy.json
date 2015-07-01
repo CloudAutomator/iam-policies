@@ -8,10 +8,21 @@
         "rds:CopyDBSnapshot",
         "rds:CreateDBSnapshot",
         "rds:DeleteDBSnapshot",
+        "rds:DeleteDBInstance",
         "rds:DescribeDBInstances",
         "rds:DescribeDBSnapshots",
+        "rds:DescribeDBInstances",
+        "rds:DescribeDBParameterGroups",
+        "rds:DescribeDBParameters",
+        "rds:DescribeDBSecurityGroups",
+        "rds:DescribeDBSubnetGroups",
+        "rds:DescribeOptionGroups",
+        "rds:DescribeOrderableDBInstanceOptions",
         "rds:ListTagsForResource",
-        "rds:RemoveTagsFromResource"
+        "rds:RemoveTagsFromResource",
+        "rds:ModifyDBInstance",
+        "rds:RebootDBInstance",
+        "rds:RestoreDBInstanceFromDBSnapshot"
       ],
       "Resource": "*"
     }
