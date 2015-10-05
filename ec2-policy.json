@@ -48,7 +48,9 @@
         "ec2:ModifyNetworkInterfaceAttribute",
         "ec2:ModifyVolumeAttribute",
         "ec2:StartInstances",
-        "ec2:StopInstances"
+        "ec2:StopInstances",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupIngress"
       ],
       "Resource": "*"
     }
