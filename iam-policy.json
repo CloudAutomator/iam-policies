@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:AttachRolePolicy",
+                "iam:CreatePolicy",
+                "iam:CreatePolicyVersion",
+                "iam:CreateRole",
+                "iam:DeletePolicy",
+                "iam:DeletePolicyVersion",
+                "iam:DeleteRole",
+                "iam:DeleteRolePolicy",
+                "iam:DetachRolePolicy",
+                "iam:GetPolicy",
+                "iam:GetPolicyVersion",
+                "iam:GetRole",
+                "iam:ListPolicies",
+                "iam:ListPolicyVersions",
+                "iam:ListRoles",
+                "iam:SetDefaultPolicyVersion"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
