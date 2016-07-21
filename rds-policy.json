@@ -6,14 +6,21 @@
       "Action": [
         "rds:AddTagsToResource",
         "rds:CopyDBSnapshot",
+        "rds:CopyDBClusterSnapshot",
         "rds:CreateDBSnapshot",
+        "rds:CreateDBClusterSnapshot",
         "rds:DeleteDBSnapshot",
+        "rds:DeleteDBClusterSnapshot",
         "rds:DeleteDBInstance",
+        "rds:DeleteDBCluster",
         "rds:DescribeDBInstances",
+        "rds:DescribeDBClusters",
         "rds:DescribeDBSnapshots",
-        "rds:DescribeDBInstances",
+        "rds:DescribeDBClusterSnapshots",
         "rds:DescribeDBParameterGroups",
+        "rds:DescribeDBClusterParameterGroups",
         "rds:DescribeDBParameters",
+        "rds:DescribeDBClusterParameters",
         "rds:DescribeDBSecurityGroups",
         "rds:DescribeDBSubnetGroups",
         "rds:DescribeOptionGroups",
@@ -21,8 +28,10 @@
         "rds:ListTagsForResource",
         "rds:RemoveTagsFromResource",
         "rds:ModifyDBInstance",
+        "rds:ModifyDBCluster",
         "rds:RebootDBInstance",
-        "rds:RestoreDBInstanceFromDBSnapshot"
+        "rds:RestoreDBInstanceFromDBSnapshot",
+        "rds:RestoreDBClusterFromSnapshot"
       ],
       "Resource": "*"
     }
