@@ -19,7 +19,11 @@
                 "iam:ListPolicies",
                 "iam:ListPolicyVersions",
                 "iam:ListRoles",
-                "iam:SetDefaultPolicyVersion"
+                "iam:SetDefaultPolicyVersion",
+                "config:DescribeDeliveryChannels",
+                "config:PutDeliveryChannel",
+                "config:PutConfigRule",
+                "config:DescribeConfigRules"
             ],
             "Resource": [
                 "*"
