@@ -20,6 +20,7 @@
                 "iam:ListPolicyVersions",
                 "iam:ListRoles",
                 "iam:SetDefaultPolicyVersion",
+                "config:DeleteConfigRule",
                 "config:DescribeDeliveryChannels",
                 "config:PutDeliveryChannel",
                 "config:PutConfigRule",
