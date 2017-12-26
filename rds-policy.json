@@ -28,6 +28,8 @@
         "rds:DescribeOrderableDBInstanceOptions",
         "rds:ListTagsForResource",
         "rds:RemoveTagsFromResource",
+        "rds:StartDBInstance",
+        "rds:StopDBInstance",
         "rds:ModifyDBInstance",
         "rds:ModifyDBCluster",
         "rds:RebootDBInstance",
