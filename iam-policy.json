@@ -19,6 +19,7 @@
                 "iam:ListPolicies",
                 "iam:ListPolicyVersions",
                 "iam:ListRoles",
+                "iam:ListUsers",
                 "iam:SetDefaultPolicyVersion",
                 "config:DeleteConfigRule",
                 "config:DescribeDeliveryChannels",
