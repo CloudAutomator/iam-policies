@@ -30,6 +30,8 @@
         "rds:RemoveTagsFromResource",
         "rds:StartDBInstance",
         "rds:StopDBInstance",
+        "rds:StartDBCluster",
+        "rds:StopDBCluster",
         "rds:ModifyDBInstance",
         "rds:ModifyDBCluster",
         "rds:RebootDBInstance",
