@@ -21,6 +21,7 @@
                 "iam:ListRoles",
                 "iam:ListUsers",
                 "iam:SetDefaultPolicyVersion",
+                "iam:UpdateAssumeRolePolicy",
                 "config:DeleteConfigRule",
                 "config:DescribeDeliveryChannels",
                 "config:PutDeliveryChannel",
