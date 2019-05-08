@@ -4,10 +4,12 @@
     {
       "Effect": "Allow",
       "Action": [
+        "sqs:AddPermission",
         "sqs:DeleteMessage",
         "sqs:GetQueueUrl",
         "sqs:ListQueues",
         "sqs:ReceiveMessage",
+        "sqs:RemovePermission",
         "sqs:SendMessage"
       ],
       "Resource": "*"
