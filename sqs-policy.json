@@ -6,6 +6,7 @@
       "Action": [
         "sqs:AddPermission",
         "sqs:DeleteMessage",
+        "sqs:GetQueueAttributes",
         "sqs:GetQueueUrl",
         "sqs:ListQueues",
         "sqs:ReceiveMessage",
