@@ -26,6 +26,7 @@
         "ec2:DescribeInstanceAttribute",
         "ec2:DescribeInstanceStatus",
         "ec2:DescribeInstances",
+        "ec2:DescribeInternetGateways",
         "ec2:DescribeKeyPairs",
         "ec2:DescribeNetworkInterfaceAttribute",
         "ec2:DescribeNetworkInterfaces",
