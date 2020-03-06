@@ -16,6 +16,7 @@
                 "iam:GetPolicy",
                 "iam:GetPolicyVersion",
                 "iam:GetRole",
+                "iam:ListAttachedUserPolicies",
                 "iam:ListPolicies",
                 "iam:ListPolicyVersions",
                 "iam:ListRoles",
