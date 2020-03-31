@@ -9,6 +9,7 @@
                 "workspaces:DescribeWorkspaceDirectories",
                 "workspaces:DescribeWorkspaces",
                 "workspaces:DescribeWorkspacesConnectionStatus",
+                "workspaces:StartWorkspaces",
                 "workspaces:TerminateWorkspaces"
             ],
             "Resource": [
