@@ -7,8 +7,12 @@
                 "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
                 "elasticloadbalancing:DescribeInstanceHealth",
                 "elasticloadbalancing:DescribeLoadBalancers",
+                "elasticloadbalancing:DeregisterTargets",
                 "elasticloadbalancing:DescribeTags",
-                "elasticloadbalancing:RegisterInstancesWithLoadBalancer"
+                "elasticloadbalancing:DescribeTargetGroups",
+                "elasticloadbalancing:DescribeTargetHealth",
+                "elasticloadbalancing:RegisterInstancesWithLoadBalancer",
+                "elasticloadbalancing:RegisterTargets"
             ],
             "Resource": [
                 "*"
