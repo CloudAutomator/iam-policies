@@ -7,6 +7,7 @@
         "redshift:CopyClusterSnapshot",
         "redshift:CreateCluster",
         "redshift:CreateClusterSnapshot",
+        "redshift:CreateTags",
         "redshift:DeleteCluster",
         "redshift:DeleteClusterSnapshot",
         "redshift:DescribeClusterParameterGroups",
