@@ -5,6 +5,7 @@
             "Effect": "Allow",
             "Action": [
                 "iam:AttachRolePolicy",
+                "iam:AttachUserPolicy",
                 "iam:CreatePolicy",
                 "iam:CreatePolicyVersion",
                 "iam:CreateRole",
@@ -16,6 +17,7 @@
                 "iam:GetPolicy",
                 "iam:GetPolicyVersion",
                 "iam:GetRole",
+                "iam:GetUser",
                 "iam:ListAttachedUserPolicies",
                 "iam:ListPolicies",
                 "iam:ListPolicyVersions",
