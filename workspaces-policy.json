@@ -10,6 +10,7 @@
                 "workspaces:DescribeWorkspaces",
                 "workspaces:DescribeWorkspacesConnectionStatus",
                 "workspaces:RebootWorkspaces",
+                "workspaces:RebuildWorkspaces",
                 "workspaces:StartWorkspaces",
                 "workspaces:TerminateWorkspaces"
             ],
