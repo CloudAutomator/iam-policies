@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "fsx:DescribeFileSystems",
+        "fsx:DescribeBackups",
+        "fsx:DeleteBackup",
+        "fsx:CreateBackup"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
