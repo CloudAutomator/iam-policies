@@ -4,10 +4,11 @@
     {
       "Effect": "Allow",
       "Action": [
-        "fsx:DescribeFileSystems",
-        "fsx:DescribeBackups",
+        "fsx:CreateBackup",
         "fsx:DeleteBackup",
-        "fsx:CreateBackup"
+        "fsx:DescribeBackups",
+        "fsx:DescribeFileSystems",
+        "fsx:TagResource"
       ],
       "Resource": "*"
     }
