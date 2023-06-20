@@ -24,6 +24,7 @@
                 "iam:ListPolicyVersions",
                 "iam:ListRoles",
                 "iam:ListUsers",
+                "iam:PassRole",
                 "iam:SetDefaultPolicyVersion",
                 "iam:UpdateAssumeRolePolicy",
                 "config:DeleteConfigRule",
