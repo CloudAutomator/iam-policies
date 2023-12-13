@@ -8,6 +8,7 @@
         "fsx:DeleteBackup",
         "fsx:DescribeBackups",
         "fsx:DescribeFileSystems",
+        "fsx:DescribeVolumes",
         "fsx:TagResource"
       ],
       "Resource": "*"
