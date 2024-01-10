@@ -1,6 +1,6 @@
 # iam-policies
 
-## Desctiption
+## Description
 
 AWS iam policies for [Cloud Automator](http://cloudautomator.com/).Cloud Automator is AWS operation tools for automation.
 
