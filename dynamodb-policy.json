@@ -4,9 +4,7 @@
     {
       "Effect": "Allow",
       "Action": [
-        "backup:DescribeRegionSettings",
-        "backup:ListBackupVaults",
-        "backup:StartBackupJob"
+        "dynamodb:ListTables"
       ],
       "Resource": "*"
     }
