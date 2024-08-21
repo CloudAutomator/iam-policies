@@ -28,6 +28,7 @@
         "ec2:DescribeInstances",
         "ec2:DescribeInternetGateways",
         "ec2:DescribeKeyPairs",
+        "ec2:DescribeLockedSnapshots",
         "ec2:DescribeNetworkInterfaceAttribute",
         "ec2:DescribeNetworkInterfaces",
         "ec2:DescribeRegions",
