@@ -4,6 +4,7 @@
     {
       "Effect": "Allow",
       "Action": [
+        "backup:DescribeBackupJob",
         "backup:DescribeRegionSettings",
         "backup:ListBackupVaults",
         "backup:StartBackupJob"
