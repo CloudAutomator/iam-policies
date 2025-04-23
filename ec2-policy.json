@@ -12,7 +12,9 @@
         "ec2:CopyImage",
         "ec2:CopySnapshot",
         "ec2:CreateImage",
+        "ec2:CreateNatGateway",
         "ec2:CreateNetworkInterface",
+        "ec2:CreateRoute",
         "ec2:CreateSnapshot",
         "ec2:CreateTags",
         "ec2:CreateVolume",
@@ -29,9 +31,11 @@
         "ec2:DescribeInternetGateways",
         "ec2:DescribeKeyPairs",
         "ec2:DescribeLockedSnapshots",
+        "ec2:DescribeNatGateways",
         "ec2:DescribeNetworkInterfaceAttribute",
         "ec2:DescribeNetworkInterfaces",
         "ec2:DescribeRegions",
+        "ec2:DescribeRouteTables",
         "ec2:DescribeSecurityGroups",
         "ec2:DescribeSnapshotAttribute",
         "ec2:DescribeSnapshots",
@@ -58,4 +62,3 @@
     }
   ]
 }
-
