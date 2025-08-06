@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "compute-optimizer:GetEnrollmentStatus",
+        "compute-optimizer:UpdateEnrollmentStatus",
+        "compute-optimizer:GetEC2InstanceRecommendations",
+        "compute-optimizer:GetRDSDatabaseRecommendations"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
