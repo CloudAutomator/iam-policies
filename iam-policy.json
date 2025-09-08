@@ -9,6 +9,7 @@
                 "iam:CreatePolicy",
                 "iam:CreatePolicyVersion",
                 "iam:CreateRole",
+                "iam:CreateServiceLinkedRole",
                 "iam:DeletePolicy",
                 "iam:DeletePolicyVersion",
                 "iam:DeleteRole",
