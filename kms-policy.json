@@ -4,9 +4,13 @@
     {
       "Effect": "Allow",
       "Action": [
+        "kms:CreateGrant",
+        "kms:Decrypt",
+        "kms:GenerateDataKeyWithoutPlainText",
         "kms:ListKeys",
         "kms:ListAliases",
-        "kms:DescribeKey"
+        "kms:DescribeKey",
+        "kms:ReEncrypt"
       ],
       "Resource": "*"
     }
