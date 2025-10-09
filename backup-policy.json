@@ -5,9 +5,11 @@
       "Effect": "Allow",
       "Action": [
         "backup:DescribeBackupJob",
+        "backup:DescribeCopyJob",
         "backup:DescribeRegionSettings",
         "backup:ListBackupVaults",
-        "backup:StartBackupJob"
+        "backup:StartBackupJob",
+        "backup:StartCopyJob"
       ],
       "Resource": "*"
     }
