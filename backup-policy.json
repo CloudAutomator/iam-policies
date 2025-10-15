@@ -8,6 +8,7 @@
         "backup:DescribeCopyJob",
         "backup:DescribeRegionSettings",
         "backup:ListBackupVaults",
+        "backup:ListRecoveryPointsByBackupVault",
         "backup:StartBackupJob",
         "backup:StartCopyJob"
       ],
