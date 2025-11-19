@@ -5,12 +5,15 @@
       "Effect": "Allow",
       "Action": [
         "ecs:DescribeClusters",
+        "ecs:DescribeServices",
         "ecs:DescribeTasks",
         "ecs:ListClusters",
+        "ecs:ListServices",
         "ecs:ListTaskDefinitionFamilies",
         "ecs:ListTasks",
         "ecs:RunTask",
-        "ecs:StopTask"
+        "ecs:StopTask",
+        "ecs:UpdateService"
       ],
       "Resource": "*"
     }
